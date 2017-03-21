@@ -1,0 +1,14 @@
+## .gitignore ##
+
+# Ignore debugging or execution files.
+*.dat
+*.exe
+*.dSYM
+*.DS_Store
+
+# Allow source files.
+!*.gitignore
+!*.gitkeep
+
+# Ignore configuration file.
+config.hpp
